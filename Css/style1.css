@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background: #1d1d1d;
+  font: 9.3333333333px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  overflow: hidden;
+}
+
+canvas {
+  margin-top: 50px;
+}
+
+.bar {
+  position: relative;
+  padding: 5px;
+  font-family: 'Anaheim', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: #333;
+}
+
+.fork {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0 5px;
+  background-color: #999;
+  text-decoration: none;
+}
+
+.fork__text {
+  padding-right: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+.fork__img {
+  margin-right: 5px;
+  width: 30px;
+}
